@@ -61,10 +61,12 @@ erDiagram
 | `createWebinar(form)` | Validates the multi-step form (basic info, CTA, additional info) and inserts a webinar |
 | `getWebinarByPresenterId`, `getWebinarById` | Dashboard and live-page queries |
 | `changeWebinarStatus(id, status)` | Moves the webinar through its lifecycle |
-| `registerAttendee({ webinarId, email, name })` | Upserts the attendee and records `REGISTERED` attendance |
+| `registerAttendee({ webinarId, email, name })` | Finds or creates the attendee, rejects a second registration for the same webinar, records `REGISTERED` attendance |
 | `getWebinarAttendance(webinarId)` | `groupBy` attendance type → pipeline columns with counts and people |
 
-## 3. Lead pipeline
+## 3. Lead pipeline (typical progression)
+
+The pipeline page shows one column per `AttendedTypeEnum` value; leads usually move like this:
 
 ```mermaid
 flowchart LR
