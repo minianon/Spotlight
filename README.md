@@ -142,6 +142,6 @@ This project is licensed under the [MIT License](LICENSE).
 - **Connect 1:1** - [Topmate](https://topmate.io/tusharbhardwaj)
 - **GitHub:** [minianon](https://github.com/minianon)
 - **LinkedIn:** [Tushar Bhardwaj](https://www.linkedin.com/in/bhardwajtushar2004/)
-- **Email:** [tusharbhardwaj2617@example.com](mailto:tusharbhardwaj2617@example.com)
+- **Email:** [tusharbhardwaj2617@gmail.com](mailto:tusharbhardwaj2617@gmail.com)
 - **Support:** [GitHub Sponsors](https://github.com/sponsors/minianon) · [Buy me a chai](https://buymeachai.ezee.li/minianon)
 
